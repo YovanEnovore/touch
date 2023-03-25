@@ -95,7 +95,7 @@ defineProps({
                             <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">API</h2>
 
                             <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                Conexiones en fase de test. <a href="login">ir</a>
+                                Conexiones en fase de test. <a href="login">_ir_</a>
                             </p>
                         </div>
                     </div>

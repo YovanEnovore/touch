@@ -19,7 +19,8 @@ class User extends Authenticatable
     use TwoFactorAuthenticatable;
 
     /**
-     * The attributes that are mass assignable.
+     * ES {Los atributos que se pueden asignar masivamente.}
+     * EN {The attributes that are mass assignable.}
      *
      * @var array<int, string>
      */
@@ -30,7 +31,8 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be hidden for serialization.
+     * ES {Las atributos que deben estar ocultos para la serialización.}
+     * EN {The attributes that should be hidden for serialization.}
      *
      * @var array<int, string>
      */
@@ -42,7 +44,8 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be cast.
+     * ES {Los atributos que deben ser convertidos.}
+     * EN {The attributes that should be cast.}
      *
      * @var array<string, string>
      */
@@ -51,7 +54,8 @@ class User extends Authenticatable
     ];
 
     /**
-     * The accessors to append to the model's array form.
+     * ES {Las funciones de acceso para agregar a la forma de matriz del modelo.}
+     * EN {The accessors to append to the model's array form.}
      *
      * @var array<int, string>
      */
@@ -59,3 +63,16 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 }
+
+
+
+/**
+ * DEV: Yovan Yaune Enovore
+ * EMAIL: yovanuxf@gmail.com
+ * Esta es una propiedad en los modelos de Eloquent en Laravel que define los atributos
+ * que se pueden asignar en masa desde un array o una solicitud HTTP. Para mejorar la seguridad, 
+ * solo se deben permitir atributos específicos para ser asignados en masa y protegerse 
+ * contra la asignación masiva de atributos no deseados. La propiedad $fillable se utiliza 
+ * para permitir la asignación masiva de atributos específicos, mientras que la propiedad 
+ * $guarded se utiliza para especificar qué atributos no se deben asignar en masa.
+ */

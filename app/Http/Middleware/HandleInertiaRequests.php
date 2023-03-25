@@ -8,7 +8,8 @@ use Inertia\Middleware;
 class HandleInertiaRequests extends Middleware
 {
     /**
-     * The root template that's loaded on the first page visit.
+     * ES {La plantilla raíz que se carga en la primera visita a la página.}
+     * EN {The root template that's loaded on the first page visit.}
      *
      * @see https://inertiajs.com/server-side-setup#root-template
      * @var string
@@ -16,7 +17,8 @@ class HandleInertiaRequests extends Middleware
     protected $rootView = 'app';
 
     /**
-     * Determines the current asset version.
+     * ES {Determina la versión actual de recursos.}
+     * EN {Determines the current asset version.}
      *
      * @see https://inertiajs.com/asset-versioning
      * @param  \Illuminate\Http\Request  $request
@@ -28,7 +30,8 @@ class HandleInertiaRequests extends Middleware
     }
 
     /**
-     * Defines the props that are shared by default.
+     * ES {Defines las props que se comparten por defecto.}
+     * EN {Defines the props that are shared by default.}
      *
      * @see https://inertiajs.com/shared-data
      * @param  \Illuminate\Http\Request  $request

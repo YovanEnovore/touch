@@ -7,7 +7,8 @@ use Laravel\Jetstream\Membership as JetstreamMembership;
 class Membership extends JetstreamMembership
 {
     /**
-     * Indicates if the IDs are auto-incrementing.
+     * ES {Indica si los IDs se autoincrementan.}
+     * EN {Indicates if the IDs are auto-incrementing.}
      *
      * @var bool
      */

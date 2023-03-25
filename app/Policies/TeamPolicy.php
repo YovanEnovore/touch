@@ -11,7 +11,8 @@ class TeamPolicy
     use HandlesAuthorization;
 
     /**
-     * Determine whether the user can view any models.
+     * ES {Determinar si el usuario puede ver cualquier modelo.}
+     * EN {Determine whether the user can view any models.}
      */
     public function viewAny(User $user): bool
     {
@@ -19,7 +20,8 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can view the model.
+     * ES {Determinar si el usuario puede ver el modelo.}
+     * EN {Determine whether the user can view the model.}
      */
     public function view(User $user, Team $team): bool
     {
@@ -27,7 +29,8 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can create models.
+     * ES {Determinar si el usuario puede crear modelos.}
+     * EN {Determine whether the user can create models.}
      */
     public function create(User $user): bool
     {
@@ -35,7 +38,8 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can update the model.
+     * ES {Determinar si el usuario puede actualizar el modelo.}
+     * EN {Determine whether the user can update the model.}
      */
     public function update(User $user, Team $team): bool
     {
@@ -43,7 +47,8 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can add team members.
+     * ES {Determinar si el usuario puede agregar miembros al equipo.}
+     * EN {Determine whether the user can add team members.}
      */
     public function addTeamMember(User $user, Team $team): bool
     {
@@ -51,7 +56,8 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can update team member permissions.
+     * ES {Determinar si el usuario puede actualizar los permisos de los miembros del equipo.}
+     * EN {Determine whether the user can update team member permissions.}
      */
     public function updateTeamMember(User $user, Team $team): bool
     {
@@ -59,7 +65,8 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can remove team members.
+     * ES {Determinar si el usuario puede eliminar miembros del equipo.}
+     * EN {Determine whether the user can remove team members.}
      */
     public function removeTeamMember(User $user, Team $team): bool
     {
@@ -67,7 +74,8 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can delete the model.
+     * ES {Determinar si el usuario puede eliminar el modelo.}
+     * EN {Determine whether the user can delete the model.}
      */
     public function delete(User $user, Team $team): bool
     {

@@ -9,7 +9,8 @@ use Laravel\Jetstream\TeamInvitation as JetstreamTeamInvitation;
 class TeamInvitation extends JetstreamTeamInvitation
 {
     /**
-     * The attributes that are mass assignable.
+     * ES {Las atributos que son asignables en masa.}
+     * EN {The attributes that are mass assignable.}
      *
      * @var array<int, string>
      */
@@ -19,7 +20,8 @@ class TeamInvitation extends JetstreamTeamInvitation
     ];
 
     /**
-     * Get the team that the invitation belongs to.
+     * ES {Obtener el equipo al que pertenece la invitación.}
+     * EN {Get the team that the invitation belongs to.}
      */
     public function team(): BelongsTo
     {
